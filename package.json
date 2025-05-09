@@ -3,12 +3,12 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    
     "dev": "tsx watch src/index.ts",
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/index.js"
   },
   "dependencies": {
+    "@daveyplate/better-auth-ui": "^1.5.2",
     "@hono/node-server": "^1.14.0",
     "@prisma/client": "^6.5.0",
     "@types/jsonwebtoken": "^9.0.9",

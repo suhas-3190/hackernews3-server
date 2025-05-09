@@ -1,6 +1,6 @@
 import { Hono } from "hono";
-import { authenticationRoutes } from "./authentication-routes";
-import { usersRoutes } from "./users-routes";
+import { authenticationRoutes } from "./authentication-routes.js";
+import { usersRoutes } from "./users-routes.js";
 import { logger } from "hono/logger";
 
 export const allRoutes = new Hono();

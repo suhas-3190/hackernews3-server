@@ -1,4 +1,4 @@
-import { prismaClient } from "../../extras/prisma";
+import { prismaClient } from "../../extras/prisma.js";
 import {
   createPostError,
   type CreatePostResult,

@@ -1,9 +1,9 @@
-import { prismaClient } from "../../extras/prisma";
+import { prismaClient } from "../../extras/prisma.js";
 import type {
   CreateCommentResult,
   GetCommentsResult,
   UpdateCommentResult,
-} from "./comments-types";
+} from "./comments-types.js";
 
 export const getCommentsOnPost = async (parameters: {
   postId: string;

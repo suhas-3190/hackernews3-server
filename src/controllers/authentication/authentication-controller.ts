@@ -1,7 +1,7 @@
 import { createHash } from "crypto";
-import { LogInWtihUsernameAndPasswordError, SignUpWithUsernameAndPasswordError, type LogInWithUsernameAndPasswordResult, type SignUpWithUsernameAndPasswordResult } from "./authentication-types";
-import { prismaClient } from "../../extras/prisma";
-import { jwtSecretKey } from "../../../environment";
+import { LogInWtihUsernameAndPasswordError, SignUpWithUsernameAndPasswordError, type LogInWithUsernameAndPasswordResult, type SignUpWithUsernameAndPasswordResult } from "./authentication-types.js";
+import { prismaClient } from "../../extras/prisma.js";
+import { jwtSecretKey } from "../../../environment.js";
 import jwt from "jsonwebtoken";
 
 

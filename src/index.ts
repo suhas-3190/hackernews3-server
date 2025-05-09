@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { allRoutes } from "./routes/routes";
+import { allRoutes } from "./routes/routes.js";
 import { serve } from "@hono/node-server";
 
 serve(allRoutes, (info) => {
